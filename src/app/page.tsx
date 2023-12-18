@@ -1,3 +1,9 @@
+import Trailer from './components/Trailer';
+
 export default function Home() {
-    return <h1>Welcome to our app!</h1>;
+    return (
+        <section>
+            <Trailer />
+        </section>
+    );
 }
