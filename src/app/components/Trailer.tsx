@@ -11,20 +11,20 @@ export default function Trailer() {
                     height={1080}
                     className='w-full pt-[30%]'
                 />
-                <p className='text-white pt-10 text-[1.2vw] drop-shadow-lg'>
+                <p className='text-white pt-10 text-[1.2vw] drop-shadow-lg hidden md:flex'>
                     The first of its kind in UHD 4K, with the clearest picture
                     available, a real fireplace sparks and crackles, adding
                     warmth and atmosphere to any home.
                 </p>
-                <div className='flex mt-4 text-[1.2vw]'>
-                    <button className='bg-white py-2 px-6 rounded-[4px] mr-2 flex hover:bg-[rgba(255,255,255,0.9)] transition-all'>
+                <div className='flex mt-4 text-xs md:text-[1.2vw]'>
+                    <button className='bg-white md:py-2 lg:py-4 px-6 rounded-[4px] mr-2 flex hover:bg-[rgba(255,255,255,0.9)] transition-all items-center'>
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
                             fill='black'
                             viewBox='0 0 24 24'
                             strokeWidth={1.5}
                             stroke='currentColor'
-                            className='w-6 h-6 mr-1'
+                            className='w-4 h-4 md:w-6 md:h-6 mr-1'
                         >
                             <path
                                 strokeLinecap='round'
@@ -32,17 +32,17 @@ export default function Trailer() {
                                 d='M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z'
                             />
                         </svg>
-                        Play
+                        <span> Play</span>
                     </button>
 
-                    <button className='bg-[rgba(109,109,110,0.7)] py-2 px-4 rounded-[4px] ml-2 flex text-white hover:bg-[rgba(109,109,110,0.75)] transition-all'>
+                    <button className='bg-[rgba(109,109,110,0.7)] md:py-2 lg:py-4 px-6 rounded-[4px] ml-2 flex text-white hover:bg-[rgba(109,109,110,0.75)] transition-all items-center'>
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
                             fill='none'
                             viewBox='0 0 24 24'
                             stroke-width='1.5'
                             stroke='currentColor'
-                            className='w-6 h-6 mr-1'
+                            className='w-4 h-4 md:w-6 md:h-6 mr-1'
                         >
                             <path
                                 stroke-linecap='round'
