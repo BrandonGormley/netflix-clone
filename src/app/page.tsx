@@ -5,14 +5,18 @@ export default function Home() {
     return (
         <section>
             <Trailer />
-            <CardRow
-                title='Popular on Netflix'
-                image='/thumbnail-leaveworld.jpeg'
-            />
-            <CardRow
-                title='Continue Watching for Brandon'
-                image='/thumbnail-nowhere.jpeg'
-            />
+            <section className='p-4 bg-black'>
+                <CardRow
+                    title='Popular on Netflix'
+                    image='/thumbnail-leaveworld.jpeg'
+                    alt='Thumbnail of leave the world behind'
+                />
+                <CardRow
+                    title='Continue Watching for Brandon'
+                    image='/thumbnail-nowhere.jpeg'
+                    alt='Thumbnail of nowhere'
+                />
+            </section>
         </section>
     );
 }
